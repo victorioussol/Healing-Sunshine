@@ -1,15 +1,16 @@
 <!doctype html>
 <html class="touch-styles">
   <head>
+    <!-- Healing Sunshine website 2016 rev 1-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     {.if template.mobileStylesEnabled}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {.end}
     {squarespace-headers}
-    <script>/* Must be below squarespace-headers */(function(){var e='ontouchstart'in window||navigator.msMaxTouchPoints;var t=document.documentElement;if(!e&&t){t.className=t.className.replace(/touch-styles/,'')}})()
+    <script>/* Must be below headers */(function(){var e='ontouchstart'in window||navigator.msMaxTouchPoints;var t=document.documentElement;if(!e&&t){t.className=t.className.replace(/touch-styles/,'')}})()
     </script>
   </head>
-
+<!-- Healing Sunshine website 2016 rev 1-->
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if item}{.section item}{.if productType}{.or}{.main-image?} has-banner-image item-main-image{.end}{.end}{.end}{.or}{.section collection}{.collectionTypeNameEquals? index}{.section collections}{.section 0}{.main-image?} has-banner-image index-page{.end}{.end}{.end}{.or}{.main-image?} has-banner-image general-page{.end}{.end}{.end}{.end}">
     <input type="checkbox" name="mobile-nav-toggle" id="mobileNavToggle" class="mobile-nav-toggle-box hidden" /><a href="#" class="body-overlay"></a>
     <div class="sqs-announcement-bar-dropzone"></div>
